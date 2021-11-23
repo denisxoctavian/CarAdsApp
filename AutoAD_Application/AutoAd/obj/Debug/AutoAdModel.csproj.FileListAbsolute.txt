@@ -1,0 +1,8 @@
+E:\Semestrul I\MIP Ionut Dinca\Teme\Tema 2\AutoAD_Application\AutoAd\bin\Debug\AutoAd.dll
+E:\Semestrul I\MIP Ionut Dinca\Teme\Tema 2\AutoAD_Application\AutoAd\bin\Debug\AutoAd.pdb
+E:\Semestrul I\MIP Ionut Dinca\Teme\Tema 2\AutoAD_Application\AutoAd\obj\Debug\AutoAdModel.csproj.AssemblyReference.cache
+E:\Semestrul I\MIP Ionut Dinca\Teme\Tema 2\AutoAD_Application\AutoAd\obj\Debug\AutoAdModel.csproj.CoreCompileInputs.cache
+E:\Semestrul I\MIP Ionut Dinca\Teme\Tema 2\AutoAD_Application\AutoAd\obj\Debug\AutoAd.dll
+E:\Semestrul I\MIP Ionut Dinca\Teme\Tema 2\AutoAD_Application\AutoAd\obj\Debug\AutoAd.pdb
+E:\Semestrul I\MIP Ionut Dinca\Teme\Tema 2\AutoAD_Application\AutoAd\bin\Debug\Newtonsoft.Json.dll
+E:\Semestrul I\MIP Ionut Dinca\Teme\Tema 2\AutoAD_Application\AutoAd\bin\Debug\Newtonsoft.Json.xml

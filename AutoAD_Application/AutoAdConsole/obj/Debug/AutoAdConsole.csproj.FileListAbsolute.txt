@@ -1,0 +1,16 @@
+E:\Semestrul I\MIP Ionut Dinca\Teme\Tema 2\AutoAD_Application\AutoAdConsole\bin\Debug\AutoAdConsole.exe.config
+E:\Semestrul I\MIP Ionut Dinca\Teme\Tema 2\AutoAD_Application\AutoAdConsole\bin\Debug\AutoAdConsole.exe
+E:\Semestrul I\MIP Ionut Dinca\Teme\Tema 2\AutoAD_Application\AutoAdConsole\bin\Debug\AutoAdConsole.pdb
+E:\Semestrul I\MIP Ionut Dinca\Teme\Tema 2\AutoAD_Application\AutoAdConsole\obj\Debug\AutoAdConsole.csproj.CoreCompileInputs.cache
+E:\Semestrul I\MIP Ionut Dinca\Teme\Tema 2\AutoAD_Application\AutoAdConsole\obj\Debug\AutoAdConsole.exe
+E:\Semestrul I\MIP Ionut Dinca\Teme\Tema 2\AutoAD_Application\AutoAdConsole\obj\Debug\AutoAdConsole.pdb
+E:\Semestrul I\MIP Ionut Dinca\Teme\Tema 2\AutoAD_Application\AutoAdConsole\bin\Debug\AutoAd.dll
+E:\Semestrul I\MIP Ionut Dinca\Teme\Tema 2\AutoAD_Application\AutoAdConsole\bin\Debug\AutoAdUI.exe
+E:\Semestrul I\MIP Ionut Dinca\Teme\Tema 2\AutoAD_Application\AutoAdConsole\bin\Debug\Newtonsoft.Json.dll
+E:\Semestrul I\MIP Ionut Dinca\Teme\Tema 2\AutoAD_Application\AutoAdConsole\bin\Debug\AutoAdUI.pdb
+E:\Semestrul I\MIP Ionut Dinca\Teme\Tema 2\AutoAD_Application\AutoAdConsole\bin\Debug\AutoAdUI.exe.config
+E:\Semestrul I\MIP Ionut Dinca\Teme\Tema 2\AutoAD_Application\AutoAdConsole\bin\Debug\AutoAd.pdb
+E:\Semestrul I\MIP Ionut Dinca\Teme\Tema 2\AutoAD_Application\AutoAdConsole\bin\Debug\Newtonsoft.Json.xml
+E:\Semestrul I\MIP Ionut Dinca\Teme\Tema 2\AutoAD_Application\AutoAdConsole\bin\Debug\dje\AutoAdUI.resources.dll
+E:\Semestrul I\MIP Ionut Dinca\Teme\Tema 2\AutoAD_Application\AutoAdConsole\obj\Debug\AutoAdConsole.csproj.AssemblyReference.cache
+E:\Semestrul I\MIP Ionut Dinca\Teme\Tema 2\AutoAD_Application\AutoAdConsole\obj\Debug\AutoAdConsole.csproj.CopyComplete
