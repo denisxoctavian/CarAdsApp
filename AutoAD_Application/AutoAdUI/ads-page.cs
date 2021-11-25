@@ -221,26 +221,9 @@ namespace AutoAdUI
                 f3.indexPic = 0;
                 dataGridView1.Visible = false;
                 panel1.Visible = false;
-                openChildForm(f3);  // open adview-page
+                Global.openChildForm(f3, activeForm, panelChildForm); // open adview-page
             }
             Global.globalId = id;  
-        }
-
-        //This method open a new form in panelChildForm panel
-        public void openChildForm(Form childForm)
-        {
-            if (activeForm != null)
-            {
-                activeForm.Close();
-            }
-            activeForm = childForm;
-            childForm.TopLevel = false;
-            childForm.FormBorderStyle = FormBorderStyle.None;
-            childForm.Dock = DockStyle.Fill;
-            panelChildForm.Controls.Add(childForm);
-            panelChildForm.Tag = childForm;
-            childForm.BringToFront();
-            childForm.Show();
         }
     }
 }

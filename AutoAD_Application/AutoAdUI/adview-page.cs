@@ -69,7 +69,7 @@ namespace AutoAdUI
         //Back button functionality
         private void label_Back_Click(object sender, EventArgs e)
         {
-            openChildForm(new Form4()); 
+            Global.openChildForm(new Form4(), activeForm, panelChildForm);
         }
 
         //Delete button hover design
@@ -101,7 +101,7 @@ namespace AutoAdUI
                     if (dialogResult == DialogResult.Yes)
                     {
                         Directory.Delete(folderChild, true);
-                        openChildForm(new Form4());
+                        Global.openChildForm(new Form4(), activeForm, panelChildForm);
                     }
                     else if (dialogResult == DialogResult.No)
                     {
@@ -143,7 +143,7 @@ namespace AutoAdUI
             f2.textBox_desc.Text = richTextBox_desc.Text;
             f2.button_Save.Visible = false;
             f2.button_Add.Text = "Edit ad";
-            openChildForm(f2);
+            Global.openChildForm(f2, activeForm, panelChildForm);
         }
 
 
@@ -229,23 +229,6 @@ namespace AutoAdUI
                 }
             }
 
-        //This method open a new form in panelChildForm panel
-        public void openChildForm(Form childForm)
-        {
-            if (activeForm != null)
-            {
-                activeForm.Close();
-            }
-            activeForm = childForm;
-            childForm.TopLevel = false;
-            childForm.FormBorderStyle = FormBorderStyle.None;
-            childForm.Dock = DockStyle.Fill;
-            panelChildForm.Controls.Add(childForm);
-            panelChildForm.Tag = childForm;
-            childForm.BringToFront();
-            childForm.Show();
-
-        } 
     }
     }
 

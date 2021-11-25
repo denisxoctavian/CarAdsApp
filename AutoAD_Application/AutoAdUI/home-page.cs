@@ -58,39 +58,22 @@ namespace AutoAdUI
         //Open adcreate-page
         private void button_createAd_Click(object sender, EventArgs e)
         {
-            openChildForm(new Form2());
+            Global.openChildForm(new Form2(), activeForm, panelChildForm);
             hideSub();
         }
 
         //Open ads-page
         private void buttonAds_Click(object sender, EventArgs e)
         {
-            openChildForm(new Form4());
+            Global.openChildForm(new Form4(), activeForm, panelChildForm);
         }
 
 
         //Open aboutus-page
         private void buttonAbout_Click(object sender, EventArgs e)
         {
-            openChildForm(new Form5());
+            Global.openChildForm(new Form5(),activeForm,panelChildForm);
         }
-
-        //This method open a new form in panelChildForm panel
-        public void openChildForm(Form childForm)
-        {
-            if (activeForm != null)
-            {
-                activeForm.Close();
-            }
-            activeForm = childForm;
-            childForm.TopLevel = false;
-            childForm.FormBorderStyle = FormBorderStyle.None;
-            childForm.Dock = DockStyle.Fill;
-            panelChildForm.Controls.Add(childForm);
-            panelChildForm.Tag = childForm;
-            childForm.BringToFront();
-            childForm.Show();
-
-        }
+         
     }
 }

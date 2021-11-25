@@ -15,7 +15,23 @@ namespace AutoAdUI
         public static string folderParent = ConfigurationManager.AppSettings["FilePath"];
         public static string[] folderChilds = Directory.GetDirectories(folderParent, "*");
 
-      
+        public static void openChildForm(Form childForm, Form activeForm, Panel panelChildForm)
+        {
+            if (activeForm != null)
+            {
+                activeForm.Close();
+            }
+            activeForm = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            panelChildForm.Controls.Add(childForm);
+            panelChildForm.Tag = childForm;
+            childForm.BringToFront();
+            childForm.Show();
+
+        }
+
     }
 
     static class Program
